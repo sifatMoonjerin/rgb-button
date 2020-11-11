@@ -9,7 +9,7 @@ Get RGB buttons for your !beautiful website.
 Then...
 
 ```
-import rgb-button from 'rgb-button';
+import {rgb-button} from 'rgb-button';
 ```
 
 ## Options

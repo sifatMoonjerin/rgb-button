@@ -1,4 +1,4 @@
-export default () => {
+const rgbButton = () => {
   const redBtn = document.querySelectorAll('.red-btn');
   const greenBtn = document.querySelectorAll('.green-btn');
   const blueBtn = document.querySelectorAll('.blue-btn');
@@ -8,10 +8,12 @@ export default () => {
   })
 
   greenBtn.forEach(btn => {
-    btn.style.backgroundColor = `#4CAF50;`;
+    btn.style.backgroundColor = `#4CAF50`;
   })
 
   blueBtn.forEach(btn => {
     btn.style.backgroundColor = `#008CBA`;
   })
 }
+
+module.exports.rgbButton = rgbButton
